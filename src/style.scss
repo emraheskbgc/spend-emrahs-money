@@ -62,3 +62,12 @@ body{
     width: 500px;
     
 }
+table > h5 {
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+table >h5> span {
+    color: red;
+    text-decoration-line: underline;
+}

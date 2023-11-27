@@ -22,6 +22,7 @@ export const productsSlice = createSlice({
     error: null,
     money: 1000000,
     selectedProducts: [],
+    totalPrice: 0,
   },
   reducers: {
     increment: (state, action) => {
@@ -29,7 +30,15 @@ export const productsSlice = createSlice({
       const product = state.items.find((item) => item.id === productId);
       if (product) {
         product.quantity += 1;
+        state.totalPrice += parseInt(product.price);
         state.money -= parseInt(product.price);
+      }
+      const existingProductIndex = state.selectedProducts.findIndex(
+        (selectedProduct) => selectedProduct.id === productId
+      );
+      if (existingProductIndex !== -1) {
+        state.selectedProducts[existingProductIndex].quantity += 1;
+      } else {
         state.selectedProducts = [...state.selectedProducts, { ...product }];
       }
     },
@@ -38,7 +47,17 @@ export const productsSlice = createSlice({
       const product = state.items.find((item) => item.id === productId);
       if (product && product.quantity > 0) {
         product.quantity -= 1;
+        state.totalPrice -= parseInt(product.price);
         state.money += parseInt(product.price);
+      }
+      const existingProductIndex = state.selectedProducts.findIndex(
+        (selectedProduct) => selectedProduct.id === productId
+      );
+      if (existingProductIndex !== -1) {
+        state.selectedProducts[existingProductIndex].quantity -= 1;
+        if (state.selectedProducts[existingProductIndex].quantity === 0) {
+          state.selectedProducts.splice(existingProductIndex, 1);
+        }
       }
     },
   },

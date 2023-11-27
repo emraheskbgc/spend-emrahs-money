@@ -5,6 +5,7 @@ const Receipt = () => {
   const selectedProducts = useSelector(
     (state) => state.products.selectedProducts
   );
+  const totalPrice = useSelector((state) => state.products.totalPrice);
   return (
     <div className="container ">
       <h3 style={{ marginTop: "15px" }}>Your Receipt</h3>
@@ -14,12 +15,23 @@ const Receipt = () => {
           <tbody>
             {selectedProducts.map((product, index) => (
               <tr key={index}>
-                <td>{product.name}</td>
-                <td>{product.name}</td>
-                <td>{product.price}</td>
+                {product.quantity > 0 && (
+                  <>
+                    <td>{product.name}</td>
+                    <td>{product.quantity}</td>
+                    <td>{product.price}</td>
+                  </>
+                )}
               </tr>
             ))}
           </tbody>
+          {totalPrice > 0 && (
+            <>
+              <h5>
+                TOTAL PRİCE = <span>${totalPrice}</span>
+              </h5>
+            </>
+          )}
         </table>
       </div>
     </div>
