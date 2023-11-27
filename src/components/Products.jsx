@@ -7,7 +7,6 @@ import Receipt from "./Receipt";
 const Products = () => {
   const dispatch = useDispatch();
   const products = useSelector((state) => state.products.items);
-  const status = useSelector((state) => state.products.status);
   const money = useSelector((state) => state.products.money);
 
   useEffect(() => {
@@ -28,7 +27,7 @@ const Products = () => {
           {products.map((product, index) => (
             <div className="col-md-4 cardDiv" key={index}>
               <div className="productDiv" style={{ width: "15rem" }}>
-                <img src={product.path} />
+                <img src={product.path} alt={product.name} />
                 <div>
                   <h5>{product.name}</h5>
                   <p style={{ color: "red", fontWeight: "bold" }}>

@@ -1,5 +1,5 @@
 import React from "react";
-import { UseSelector, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 const Money = () => {
   const money = useSelector((state) => state.products.money);
