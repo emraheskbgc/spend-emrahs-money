@@ -1,0 +1,64 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 220, 220);
+    
+ text-align: center;
+}
+.headerImg > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+.headerImg{
+    text-align: center;
+}
+.container > h4 {
+    text-align: center;
+    color: Black;
+}
+.money{
+    background: linear-gradient(180deg,#2ecc71,#1abc9c);
+    width: 1120px;
+    font-size: xx-large;
+    font-weight: bold;
+    height: 55px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 90px;
+
+
+}
+.cardDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.moneyDiv{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+}
+.productDiv > img {
+   display: block;
+   margin: 15px auto;
+   height: 120px;
+   max-width: 100%;
+   object-fit: contain;
+   user-select: none;
+   
+}
+.productDiv{
+    background-color: #fff;
+    padding-bottom: 15px
+}
+.receiptTable{
+    width: 500px;
+    
+}

@@ -1,0 +1,157 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Air Jordans",
+      "price": "1000",
+      "path": "/images/air-jordans.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Airpods",
+      "price": "5000",
+      "path": "/images/airpods.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Amazon Echo",
+      "price": "3000",
+      "path": "/images/amazon-echo.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Apache Helicopter",
+      "price": "50000",
+      "path": "/images/apache-helicopter.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Hamburger",
+      "price": "50",
+      "path": "/images/big-mac.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Boeing 747",
+      "price": "500000",
+      "path": "/images/boeing-747.jpg"
+    },
+
+    {
+      "id": 7,
+      "name": "Cruise Ship",
+      "price": "50000",
+      "path": "/images/cruise-ship.jpg"
+    },
+    { "id": 8, "name": "Drone", "price": "5000", "path": "/images/drone.jpg" },
+    {
+      "id": 9,
+      "name": "Ferrari",
+      "price": "70000",
+      "path": "/images/ferrari.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Flip Flops",
+      "price": "3000",
+      "path": "/images/flip-flops.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Ford F-150",
+      "price": "20000",
+      "path": "/images/ford-f-150.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Formula 1",
+      "price": "200000",
+      "path": "/images/formula-1-car.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Gaming Console",
+      "price": "2000",
+      "path": "/images/gaming-console.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Jet Ski",
+      "price": "10000",
+      "path": "/images/jet-ski.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Lobster Dinner",
+      "price": "1000",
+      "path": "/images/lobster-dinner.jpg"
+    },
+    {
+      "id": 16,
+      "name": "m1 Abrams",
+      "price": "7000",
+      "path": "/images/m1-abrams.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Mansion",
+      "price": "3000",
+      "path": "/images/mansion.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Monster Truck",
+      "price": "10000",
+      "path": "/images/monster-truck.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Movie Ticket",
+      "price": "200",
+      "path": "/images/movie-ticket.jpg"
+    },
+    { "id": 20, "name": "Rolex", "price": "8000", "path": "/images/rolex.jpg" },
+    {
+      "id": 21,
+      "name": "Home",
+      "price": "4000",
+      "path": "/images/single-family-home.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Skyscraper",
+      "price": "60000",
+      "path": "/images/skyscraper.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Smart Phone",
+      "price": "5000",
+      "path": "/images/smartphone.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Tesla",
+      "price": "90000",
+      "path": "/images/tesla.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Super Mario",
+      "price": "8000",
+      "path": "/images/video-game.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Yacht",
+      "price": "700000",
+      "path": "/images/yacht.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Year Of Netflix",
+      "price": "4000",
+      "path": "/images/year-of-netflix.jpg"
+    }
+  ]
+}
