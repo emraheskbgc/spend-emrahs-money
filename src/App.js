@@ -1,4 +1,3 @@
-import { useSelector } from "react-redux";
 import Header from "./components/Header";
 
 import Products from "./components/Products";
